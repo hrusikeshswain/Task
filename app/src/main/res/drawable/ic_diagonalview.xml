@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="100dp"
+    android:width="100dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+
+    <path
+        android:name="dark_triangle"
+        android:fillColor="#F7E9C4"
+        android:pathData="M 100,0 L 0,100 100,100 z" />
+
+    <path
+        android:name="light_triangle"
+        android:fillColor="@android:color/white"
+        android:pathData="M 0,0 L 100,0 0,100 z" />
+
+</vector>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@android:color/white">
+    </item>
+
+    <item>
+        <rotate
+            android:fromDegrees="40"
+            android:pivotX="0%"
+            android:pivotY="100%"
+            >
+            <shape
+                android:shape="rectangle">
+                <solid android:color="#F7E9C4" />
+
+            </shape>
+        </rotate>
+    </item>
+
+
+
+</layer-list>-->
